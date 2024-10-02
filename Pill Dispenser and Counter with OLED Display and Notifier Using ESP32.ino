@@ -1,7 +1,8 @@
-#define BLYNK_TEMPLATE_ID "TMPL6hgJ57ZZW"
+//You can get these after setting up Blynk
+#define BLYNK_TEMPLATE_ID "template_id"
 #define BLYNK_TEMPLATE_NAME "Counter and Organizer"
 #define BLYNK_DEVICE_NAME "OLED Pill Organizer and Dispenser"
-#define BLYNK_AUTH_TOKEN "chacZeY4aXm1GbokcrSb5iwuMtnuAm75"
+#define BLYNK_AUTH_TOKEN "auth_token"
 
 #define BLYNK_PRINT Serial
 #include <Arduino.h>
@@ -17,8 +18,8 @@
 char auth[] = BLYNK_AUTH_TOKEN;
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Sulcaton4A";
-char pass[] = "09162000";
+char ssid[] = "SSID_ID";
+char pass[] = "password";
 
 #define IR1 5  // IR sensor 1
 #define IR2 18 // IR sensor 2
